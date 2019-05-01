@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding-top: 60px;
+  background-color: #F0E9E9;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  font-size: 5rem;
+  margin: 0 auto;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1rem;
+}
+
+hr {
+  border: 0;
+  background-image: linear-gradient(to right, #F0E9E9, #8B5D5D, #F0E9E9);
+  height: 1px;
+  width: 20%;
+}
+
+.top-container {
+  position: relative;
+}
+
+.header {
+  position: relative;
+  width: 70%;
+  height: 100px;
+  margin: 0 auto 130px;
+}
+
+.logo {
+  width: 70px;
+  float: left;
+  margin-top: 15px;
+}
+
+.menu-container {
+  padding-top: 10px;
+  float: right;
+  margin-top: 30px;
+}
+
+.menu {
+  color: #000000;
+  font-size: 1.1rem;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.menu:hover {
+  color: #8B5D5D;
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 1rem;
+  margin: -15px 0 270px;
+}
+
+.mid-container{
+  margin: 100px auto;
+}
+
+.presentation{
+  width: 50%;
+  margin: 0 auto 110px;;
+}
+
+.presentation-des{
+  color: #000000;
+}
+
+.skill-rows {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: inline-block;
+  width: 300px;
+}
+
+.row1 {
+  float: left;
+}
+
+.row2 {
+margin: 0 auto;
+}
+
+.row3 {
+float: right;
+}
+
+.skill-img{
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.skill-des {
+  text-align: left;
+}
+
+.getintouch p{
+  margin-bottom: 50px;
+}
+
+.bnt {
+  background: #852424;
+  background-image: -webkit-linear-gradient(top, #852424, #662c2c);
+  background-image: -moz-linear-gradient(top, #852424, #662c2c);
+  background-image: -ms-linear-gradient(top, #852424, #662c2c);
+  background-image: -o-linear-gradient(top, #852424, #662c2c);
+  background-image: linear-gradient(to bottom, #852424, #662c2c);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #913023;
+  text-decoration: none;
+}
+
+.bot-container{
+  background: #852424;
+  padding: 20px 0 15px;
+
+}
+
+.social{
+  margin: 0 5px;
+  padding: 15px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #F0E9E9;
+}
+
+.copyrights{
+  color: #F0E9E9;
+  font-size: 0.7rem;
+}
